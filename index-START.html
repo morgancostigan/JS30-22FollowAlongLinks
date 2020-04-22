@@ -35,7 +35,8 @@
       // console.log(this);
       const linkCoords = this.getBoundingClientRect();
       console.log(this, linkCoords);
-      
+      highlight.style.width = `${linkCoords.width}px`;
+      highlight.style.height = `${linkCoords.height}px`;
       
     }//end highlightLink function
 
