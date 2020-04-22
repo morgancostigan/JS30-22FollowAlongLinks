@@ -32,7 +32,10 @@
     document.body.append(highlight);
 
     function highlightLink() {
-      console.log('HIGHLIGHT!!!');
+      // console.log(this);
+      const linkCoords = this.getBoundingClientRect();
+      console.log(this, linkCoords);
+      
       
     }//end highlightLink function
 
